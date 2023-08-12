@@ -28,10 +28,8 @@ function closeModal (){
 
 function renderCat(){
     const catEmotion = getSingleObjectOfCat()
-        // emotionOutcome.textContent = `
-        // You feel ${catEmotion.emotionTags}
-        // `
     emotionModalPopup.innerHTML  = `
+        <h2>You feel ${catEmotion.emotionTags}😄</h2>
         <img
         src="./images/${catEmotion.image}"
         class="cats"
