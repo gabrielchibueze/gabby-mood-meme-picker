@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <header>
+            <div class="top">
+                <img class="cat-image" src="images/cat-image.png" alt="cat emotion display">
+                <h1>Gabby's Mood </br><span>meme-picker</br></h1>    
+            </div>
+        </header>
+
+        <main>
+            <p>....Wana know how you feel!!! 😎</p>
+        </main>
+
+        <div>
+            <h2>Select your current emotion</h2>
+        </div>
+
+        <div class="emotion-picker" id="emotion-picker">
+
+            <div class="emotions-container" id="emotions-container">
+            </div>
+
+        </div>
+
+        <div class="modal-popup" id="modal-popup">
+            <button id="close-modal-btn" class="close-modal-btn">X</button>
+            <div class="emotion-outcome" id="emotion-outcome"></div>
+            <div class="emotion-modal-popup" id="emotion-modal-popup">
+            </div>
+        </div>
+
+        <div class="gifs-only" id="gifs-only">
+
+            <div>
+                <label for="gifsOnly">Animated Gifs Only</label>
+                <input type="checkbox" name="gifsOnly" value="gifsOnly" id="gifsOnly">
+    
+            </div>
+            <button class="get-image-btn" id="get-image-btn">Show me how I feel</button>
+
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
